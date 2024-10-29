@@ -1,0 +1,209 @@
+{
+	"info": {
+		"_postman_id": "633b940f-437e-47a7-9ca6-13acc5d3b5b6",
+		"name": "tp2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36008297"
+	},
+	"item": [
+		{
+			"name": "localhost:3000/reparto/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n \"nombre_reparto\": \"Jose Alberto Aput\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/reparto/",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"reparto",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/reparto/178",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/reparto/178",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"reparto",
+						"178"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/reparto/177",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"nombre_reparto\": \"Jose Alberto Aput\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/reparto/177",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"reparto",
+						"177"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/categoria/4",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"nombre_categoria\": \"Trailer-Avance\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/categoria/4",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"categoria",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/categoria",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"nombre_categoria\": \"Largometraje\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/categoria",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"categoria"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/reparto/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"nombre_reparto\": \"Juan Pedro\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/reparto/",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"reparto",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/categoria/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"nombre_categoria\": \"Cortometraje\"\r\n}\r\n  ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/categoria/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"categoria",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
